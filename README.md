@@ -1,2 +1,2 @@
-# StreamStorage.StreamStorage.AliyunOssStorage.Net
+# StreamStorage.AliyunOssStorage.Net
 Implement StreamStorage for Aliyun OSS.

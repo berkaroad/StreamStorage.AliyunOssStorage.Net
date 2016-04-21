@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StreamStorage.AliyunOssStorage</name>
+    </assembly>
+    <members>
+        <member name="T:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider">
+            <summary>
+            Aliyun Oss Storage Provider
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StreamStorage.AliyunOssStorage</id>
+    <version>0.1.0.0</version>
+    <title>Stream Storage with Aliyun Oss For .NET</title>
+    <authors>Berkaroad&lt;chinaren_bjr@163.com&gt;</authors>
+    <owners>Berkaroad&lt;chinaren_bjr@163.com&gt;</owners>
+    <licenseUrl>https://github.com/Berkaroad/StreamStorage.AliyunOssStorage.Net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/berkaroad/StreamStorage.AliyunOssStorage.Net</projectUrl>
+    <iconUrl>https://github.com/berkaroad/StreamStorage.AliyunOssStorage.Net/favorit.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implement StreamStorage, with aliyun oss.</description>
+    <summary>Implement StreamStorage, with aliyun oss.</summary>
+    <language>en-US</language>
+    <copyright>Copyright berkaroad 2016</copyright>
+    <tags>StreamStorage StreamStorage.AliyunOssStorage aliyun oss</tags>
+    <dependencies>
+      <dependency id="ini-parser" version="2.2.4" />
+      <dependency id="StreamStorage" version="0.1.0.1" />
+      <dependency id="Aliyun.OSS.SDK" version="2.3.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" targetFramework="net40" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="StreamStorage.AliyunOssStorage\lib\net40\StreamStorage.AliyunOssStorage.dll"  target="lib\net40\" />
+    <file src="StreamStorage.AliyunOssStorage\lib\net40\StreamStorage.AliyunOssStorage.xml"  target="lib\net40\" />
+    <file src="StreamStorage.AliyunOssStorage\lib\StreamStorage.ini"  target="lib\" />
+  </files>
+</package>

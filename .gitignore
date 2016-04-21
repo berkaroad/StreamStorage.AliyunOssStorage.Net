@@ -1,0 +1,7 @@
+bin/
+obj/
+*.suo
+.vs
+*.userprefs
+/packages
+/.nuget/packages/*.nupkg
