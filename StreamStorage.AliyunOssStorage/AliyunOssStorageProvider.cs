@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StreamStorage.AliyunOssStorage
 {
@@ -18,8 +15,15 @@ namespace StreamStorage.AliyunOssStorage
         private string bucketName = "";
         private int optCountQuotaPerDay = 10000;// Operate count per day
 
+        /// <summary>
+        /// 
+        /// </summary>
         public string ProviderName { get { return "aliyun.oss"; } }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="config"></param>
         public void Configure(Dictionary<string, string> config)
         {
             this.endpoint = config.ContainsKey("endpoint") ? config["endpoint"] : "";
@@ -33,8 +37,17 @@ namespace StreamStorage.AliyunOssStorage
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="objectName"></param>
+        /// <returns></returns>
         public Stream GetObject(string objectName)
         {
+            if (objectName != null)
+            {
+                objectName = objectName.Trim('/');
+            }
             if (String.IsNullOrEmpty(objectName))
             {
                 throw new ArgumentNullException("objectName");
@@ -62,8 +75,18 @@ namespace StreamStorage.AliyunOssStorage
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="objectName"></param>
+        /// <param name="content"></param>
+        /// <param name="overrideIfExists"></param>
         public void PutObject(string objectName, Stream content, bool overrideIfExists)
         {
+            if (objectName != null)
+            {
+                objectName = objectName.Trim('/');
+            }
             if (String.IsNullOrEmpty(objectName))
             {
                 throw new ArgumentNullException("objectName");
@@ -90,8 +113,16 @@ namespace StreamStorage.AliyunOssStorage
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="objectName"></param>
         public void DeleteObject(string objectName)
         {
+            if (objectName != null)
+            {
+                objectName = objectName.Trim('/');
+            }
             if (String.IsNullOrEmpty(objectName))
             {
                 throw new ArgumentNullException("objectName");
@@ -110,8 +141,17 @@ namespace StreamStorage.AliyunOssStorage
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="objectName"></param>
+        /// <returns></returns>
         public bool ObjectExists(string objectName)
         {
+            if (objectName != null)
+            {
+                objectName = objectName.Trim('/');
+            }
             if (String.IsNullOrEmpty(objectName))
             {
                 throw new ArgumentNullException("objectName");

@@ -36,8 +36,8 @@
       <HintPath>..\packages\ini-parser.2.2.4\lib\net20\INIFileParser.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="StreamStorage, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StreamStorage.0.1.0.1\lib\net40\StreamStorage.dll</HintPath>
+    <Reference Include="StreamStorage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StreamStorage.1.0.1\lib\net40\StreamStorage.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

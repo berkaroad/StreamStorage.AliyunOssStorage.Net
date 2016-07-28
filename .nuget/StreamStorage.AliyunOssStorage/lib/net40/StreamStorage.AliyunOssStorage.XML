@@ -9,5 +9,44 @@
             Aliyun Oss Storage Provider
             </summary>
         </member>
+        <member name="P:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.ProviderName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.Configure(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.GetObject(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.PutObject(System.String,System.IO.Stream,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+            <param name="content"></param>
+            <param name="overrideIfExists"></param>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.DeleteObject(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.ObjectExists(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

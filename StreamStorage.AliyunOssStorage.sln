@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamStorage.AliyunOssStorage", "StreamStorage.AliyunOssStorage\StreamStorage.AliyunOssStorage.csproj", "{A59ED7AF-FD55-41E4-A285-C691235033A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{45823540-6F5E-488D-94D0-6BADF58A0F37}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\pack.cmd = .nuget\pack.cmd
+		.nuget\StreamStorage.AliyunOssStorage.nuspec = .nuget\StreamStorage.AliyunOssStorage.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
