@@ -27,13 +27,28 @@
             <param name="objectName"></param>
             <returns></returns>
         </member>
-        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.PutObject(System.String,System.IO.Stream,System.Boolean)">
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.GetObjectMetadata(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.SetObjectMetadata(System.String,StreamStorage.ObjectMetadata)">
+            <summary>
+            
+            </summary>
+            <param name="objectName"></param>
+            <param name="objectMetadata"></param>
+        </member>
+        <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.PutObject(System.String,System.IO.Stream,System.Boolean,StreamStorage.ObjectMetadata)">
             <summary>
             
             </summary>
             <param name="objectName"></param>
             <param name="content"></param>
             <param name="overrideIfExists"></param>
+            <param name="objectMetadata"></param>
         </member>
         <member name="M:StreamStorage.AliyunOssStorage.AliyunOssStorageProvider.DeleteObject(System.String)">
             <summary>

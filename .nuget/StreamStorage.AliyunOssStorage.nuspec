@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>StreamStorage.AliyunOssStorage</id>
-    <version>1.0.1</version>
+    <version>1.1.2</version>
     <title>Stream Storage with Aliyun Oss For .NET</title>
     <authors>Berkaroad&lt;chinaren_bjr@163.com&gt;</authors>
     <owners>Berkaroad&lt;chinaren_bjr@163.com&gt;</owners>
-    <licenseUrl>https://raw.githubusercontent.com/Berkaroad/StreamStorage.AliyunOssStorage.Net/release-1.0/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Berkaroad/StreamStorage.AliyunOssStorage.Net/release-1.1/LICENSE</licenseUrl>
     <projectUrl>https://github.com/berkaroad/StreamStorage.AliyunOssStorage.Net</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/Berkaroad/StreamStorage.AliyunOssStorage.Net/release-1.0/favicon.ico</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Berkaroad/StreamStorage.AliyunOssStorage.Net/release-1.1/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Implement StreamStorage, with aliyun oss.</description>
     <summary>Implement StreamStorage, with aliyun oss.</summary>
@@ -17,7 +17,7 @@
     <tags>StreamStorage StreamStorage.AliyunOssStorage aliyun oss</tags>
     <dependencies>
       <dependency id="ini-parser" version="2.2.4" />
-      <dependency id="StreamStorage" version="1.0.1" />
+      <dependency id="StreamStorage" version="1.1.2" />
       <dependency id="Aliyun.OSS.SDK" version="2.3.0" />
     </dependencies>
     <frameworkAssemblies>
