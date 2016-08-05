@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{458235
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\pack.cmd = .nuget\pack.cmd
 		.nuget\StreamStorage.AliyunOssStorage.nuspec = .nuget\StreamStorage.AliyunOssStorage.nuspec
+		.nuget\StreamStorage.AliyunOssStorage\lib\StreamStorage.ini = .nuget\StreamStorage.AliyunOssStorage\lib\StreamStorage.ini
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE17CD35-2305-4FD9-A2A0-CCC5B37FF06F}"

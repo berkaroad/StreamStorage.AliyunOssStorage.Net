@@ -11,6 +11,7 @@ Implement StreamStorage for Aliyun OSS.
 	accessKeySecret=XXX
 	bucketName=bucket1-d8b98e0a
 	optCountQuotaPerDay=10000
+	objectMetadata_CacheControl=public,max-age=86400
 	__class=StreamStorage.AliyunOssStorage, StreamStorage.AliyunOssStorage.AliyunOssStorageProvider
 
 	[localfs]
@@ -37,7 +38,7 @@ Implement StreamStorage for Aliyun OSS.
 
     // save object (if exists, then override it), fill with metadata
     StreamStorage.ObjectMetadata metadata = new StreamStorage.ObjectMetadata metadata();
-    metadata.AttachmentFileName = "FriendlyFileName.txt";
+    metadata.ContentDisposition = "attachment;filename=FriendlyFileName.txt";
     using (System.IO.Stream ms = new System.IO.MemoryStream())
     {
         byte[] buffer = System.Text.Encoding.UTF8.GetBytes("Hello, my friend!");
